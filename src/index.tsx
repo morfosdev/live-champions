@@ -57,6 +57,8 @@ flexDirection: "row",
 width: "50px",
 borderRadius: "10px",
 backgroundColor: "#FFF",
+position: "absolute",
+top: "50px",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
