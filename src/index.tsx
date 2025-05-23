@@ -491,8 +491,7 @@ args.forEach(p => {
  const pass1 = { keyPath: [path1], value: [args] };
  tools.functions.setVar({ args: '', pass1 });
 
- const pass2 = { keyPath: [path2], value: [vitorias] };
- tools.functions.setVar({ args: '', pass2 });
+
 }],
         }})]
  , trigger: 'on press'
