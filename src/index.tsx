@@ -359,6 +359,10 @@ zIndex: "-1px",
    arrRefStrings: [`championsScores`],
             arrFuncs: [(args) => {
  console.log({ args });
+
+ const path = "";
+ const pass = { keyPath: [path], value: [] };
+ tools.functions.setVar({ args: "", pass });
 }],
         }})]
  , trigger: 'on press'
