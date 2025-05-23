@@ -49,6 +49,7 @@ flexDirection: "row",
 }`],
 
             functions:[()=>{}],            childrenItems:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -61,6 +62,43 @@ backgroundColor: "#FFF",
 position: "absolute",
 top: "170px",
 left: "80px",
+alignItems: "center",
+justifyContent: "center",
+opacity: "60%",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `0`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "30px",
+height: "30px",
+borderRadius: "10px",
+backgroundColor: "#FFF",
+position: "absolute",
+top: "170px",
+right: "80px",
 alignItems: "center",
 justifyContent: "center",
 opacity: "60%",
