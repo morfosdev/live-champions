@@ -71,10 +71,8 @@ opacity: "60%",
 	const [sttNumber, setNumber] = React.useState(0);
 
 	const style_1 = {
-		backgroundColor: "#FFF",
 		flexDirection: "row",
 		flex: 1,
-		width: 200,
 		alignItems: "center",
 		justifyContent: "center"
 	};
