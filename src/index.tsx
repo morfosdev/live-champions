@@ -210,6 +210,7 @@ top: "240px",
 left: "40px",
 alignItems: "center",
 justifyContent: "center",
+flexDirection: "row",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
