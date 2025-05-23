@@ -239,7 +239,7 @@ opacity: "80%",
 
             styles:[`{
 width: "60px",
-padding: "10px",
+padding: "5px",
 borderWidth: "1px",
 borderColor: "#FFF",
 borderRadius: "15px",
