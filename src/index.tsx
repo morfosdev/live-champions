@@ -210,7 +210,6 @@ top: "240px",
 left: "40px",
 alignItems: "center",
 justifyContent: "center",
-flexDirection: "row"",
 }`],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
