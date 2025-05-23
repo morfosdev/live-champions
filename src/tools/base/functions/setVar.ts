@@ -88,7 +88,7 @@ const findFlatItem = obj => {
 
 const testArgsVars = (value: string[]) => {
   let typeValue: 'free' | 'var' | 'arg' = 'free';
-  const typeOfVal = typeof value;
+  const typeOfVal = typeof value[0];
   console.log({ typeOfVal, value });
 
   if (typeOfVal === 'string') {
