@@ -491,8 +491,15 @@ xmlns="http://www.w3.org/2000/svg"
 'lst2': [{name: "Tarefa 1", date: "21/03/25"},{name: "Tarefa 2", date: "21/03/25"},{name: "Tarefa 3", date: "24/03/25"}], 'lst3': [{name: "Task 1", check: false},{name: "Task 2", check: false}] } 
 , 
 'name': "Name:", 
-'dataToSet': {name: "Carlos", phone: "1111"}, 'toggles': { 
+'dataToSet': {name: "Carlos", phone: "1111"}, 
+'toggles': { 
 'box1': true, 'checkbox1': false } 
+, 'firebase': { 
+'apiKey': AIzaSyDjAfyEUADq7EaRyFWlGFjP1Eoox9LJHgI, 
+'authDomain': devs-tests-95208.firebaseapp.com, 
+'projectId': devs-tests-95208, 
+'storageBucket': devs-tests-95208.appspot.com, 
+'messagingSenderId': 750912250366, 'appId': 1:750912250366:web:4629eac789a718a74220af } 
  } 
  
 } 
@@ -501,7 +508,11 @@ xmlns="http://www.w3.org/2000/svg"
           // console.log(initObj);
 
           const arrInitFuncs = [
-            ()=>{}
+            async (...args) =>
+  functions.firebase.fireInit({ args, pass:{
+   fbConfig: `all.firebase`,
+
+        }})
           ];
 
           export const useRoutes = create(() => ({ currRoute }));
