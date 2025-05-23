@@ -68,7 +68,6 @@ zIndex: "-1px",
             args,
           }}/>
         , 
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -97,6 +96,7 @@ Times e Placar`
           args,
 
         }}/>, 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -131,10 +131,6 @@ Times e Placar`
 
             args,
           }}/>
-        ],
-
-            args,
-          }}/>
         , 
 
     (...args:any) => <Elements.ImageBox pass={{
@@ -151,6 +147,10 @@ zIndex: "-1px",
 
       args,
     }}/>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
