@@ -74,6 +74,7 @@ zIndex: "-1px",
 
             styles:[`{
 width: "100%",
+height: "300px",
 alignItems: "center",
 padding: "20px",
 }`],
