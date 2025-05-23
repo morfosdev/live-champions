@@ -495,11 +495,11 @@ xmlns="http://www.w3.org/2000/svg"
 'toggles': { 
 'box1': true, 'checkbox1': false } 
 , 'firebase': { 
-'apiKey': AIzaSyDjAfyEUADq7EaRyFWlGFjP1Eoox9LJHgI, 
-'authDomain': devs-tests-95208.firebaseapp.com, 
-'projectId': devs-tests-95208, 
-'storageBucket': devs-tests-95208.appspot.com, 
-'messagingSenderId': 750912250366, 'appId': 1:750912250366:web:4629eac789a718a74220af } 
+'apiKey': "AIzaSyDjAfyEUADq7EaRyFWlGFjP1Eoox9LJHgI", 
+'authDomain': "devs-tests-95208.firebaseapp.com", 
+'projectId': "devs-tests-95208", 
+'storageBucket': "devs-tests-95208.appspot.com", 
+'messagingSenderId': "750912250366", 'appId': "1:750912250366:web:4629eac789a718a74220af" } 
  } 
  
 } 
