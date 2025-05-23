@@ -224,6 +224,7 @@ backgroundColor: "#FFF",
 alignItems: "center",
 justifyContent: "center",
 opacity: "80%",
+paddingHorizontal: "10px",
 }`],
 
           path: [" "],
