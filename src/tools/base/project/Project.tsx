@@ -28,6 +28,7 @@ export const Project = ({ configData }: Tprops) => {
   // ---------- call Functions (If Exists)
   React.useEffect(() => {
     const callFn = async () => {
+      console.log({arrInitFuncs});
       for (const currFunc of arrInitFuncs) await currFunc();
     };
 
