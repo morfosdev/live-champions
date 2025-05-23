@@ -89,6 +89,7 @@ const findFlatItem = obj => {
 const testArgsVars = (value: string[]) => {
   let typeValue: 'free' | 'var' | 'arg' = 'free';
   const typeOfVal = typeof value;
+  console.log({ typeOfVal, value });
 
   if (typeOfVal === 'string') {
     const joinedChild = value.join();
