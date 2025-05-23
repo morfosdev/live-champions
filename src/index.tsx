@@ -54,7 +54,8 @@ flexDirection: "row",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "50px",
+width: "30px",
+height: "30px",
 borderRadius: "10px",
 backgroundColor: "#FFF",
 position: "absolute",
