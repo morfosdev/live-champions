@@ -356,7 +356,9 @@ zIndex: "-1px",
  arrFunctions: [async (...args) =>
         functions.firebase.getDocsTool({ args, pass:{
    arrRefStrings: [`championsScores`],
-            arrFuncs: [()=>{}],
+            arrFuncs: [(args) => {
+ console.log({ args });
+}],
         }})]
  , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
