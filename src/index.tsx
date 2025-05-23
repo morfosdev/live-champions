@@ -403,7 +403,7 @@ zIndex: "-1px",
           ],
 
           children: [
-            `getCollection`
+            `setDoc`
           ],
 
           args,
