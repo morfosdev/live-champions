@@ -243,6 +243,7 @@ padding: "10px",
 borderWidth: "1px",
 borderColor: "#FFF",
 borderRadius: "15px",
+alignItems: "center",
 }`],
 
             functions:[async (...args) =>
