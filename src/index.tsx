@@ -50,23 +50,20 @@ flexDirection: "row",
 
             functions:[()=>{}],            childrenItems:[
 
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+      styles:[{
+position: "absolute",
+width: "100%",
+height: "100px",
+zIndex: "-1px",
+}],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Ftopo%20bg.png?alt=media&token=901524ef-9c9b-496f-83aa-7ccc240858e7`],
 
-            args,
-          }}/>
-        ],
+      args,
+    }}/>],
 
             args,
           }}/>
@@ -82,7 +79,8 @@ alignItems: "center",
 padding: "20px",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -98,7 +96,34 @@ Times e Placar`
 
           args,
 
-        }}/>],
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("tests");
+        }
+        ]
+ , trigger: 'on press'
+}})],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
