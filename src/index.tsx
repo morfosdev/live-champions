@@ -67,22 +67,50 @@ justifyContent: "center",
 opacity: "60%",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
+            functions:[()=>{}],            childrenItems:[() => {
+	const [sttNumber, setNumber] = React.useState(0);
 
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
+	const style_1 = {
+		backgroundColor: "#FFF",
+		flexDirection: "row",
+		flex: 1,
+		width: 200,
+		alignItems: "center",
+		justifyContent: "center"
+	};
 
-          children: [
-            `0`
-          ],
+	const style_2 = {
+		backgroundColor: "#0064FE",
+		alignItems: "center",
+		justifyContent: "center",
+		borderRadius: 3,
+		width: 20,
+		height: 20
+	};
+	
+	const style_3 = {
+		marginHorizontal: 20
+	};
 
-          args,
+	const style_4 = {
+		color: "#FFF",
+		lineHeight: 0
+	};
 
-        }}/>],
+	return (
+		<RN.View style={style_1}>
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => Math.max(0, i - 1))}>
+				<RN.Text style={style_4}>-</RN.Text>
+			</RN.Pressable>
+
+			<RN.Text style={style_3}>{sttNumber}</RN.Text>
+
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => i + 1)}>
+				<RN.Text style={style_4}>+</RN.Text>
+			</RN.Pressable>
+		</RN.View>
+	);
+}],
 
             args,
           }}/>
