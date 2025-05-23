@@ -231,7 +231,7 @@ paddingHorizontal: "10px",
 
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
-          keyPath: [`temp.userName`],
+          keyPath: [`sc.A0.forms.iptsChanges.userName`],
           value: [$arg_callback]
         }})],
 
@@ -267,9 +267,10 @@ alignItems: "center",
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [async (...args) =>
-        functions.setVar({ args, pass:{
-          keyPath: [`sc.A0.forms.iptsChanges.userName`],
-          value: [`temp.userName`]
+        functions.firebase.setDocTool({ args, pass:{
+  arrRefStrings: [`championsScores`],
+            arrPathData: [`sc.A0.forms.iptsChanges`],
+            arrFuncs: [()=>{}],
         }})]
  , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
