@@ -68,19 +68,18 @@ zIndex: "-1px",
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
             styles:[`{
 width: "100%",
-height: "300px",
 alignItems: "center",
 padding: "20px",
 }`],
 
             functions:[()=>{}],            childrenItems:[
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -115,6 +114,10 @@ padding: "20px",
 
             args,
           }}/>
+        ],
+
+            args,
+          }}/>
         , 
 
     (...args:any) => <Elements.ImageBox pass={{
@@ -131,10 +134,6 @@ zIndex: "-2px",
 
       args,
     }}/>],
-
-            args,
-          }}/>
-        ],
 
           functions:[()=>{}],
 
