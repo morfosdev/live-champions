@@ -79,23 +79,6 @@ padding: "20px",
 }`],
 
             functions:[()=>{}],            childrenItems:[
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
-
-          children: [
-            `Usuario - Salvar
-Times e Placar`
-          ],
-
-          args,
-
-        }}/>, 
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -140,7 +123,7 @@ Times e Placar`
 position: "absolute",
 width: "100%",
 height: "100%",
-zIndex: "-1px",
+zIndex: "-2px",
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FUEFA%20fundo.png?alt=media&token=10be4eca-ba49-47bd-8907-99728cf70b59`],
