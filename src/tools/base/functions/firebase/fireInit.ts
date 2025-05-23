@@ -23,6 +23,6 @@ export const fireInit = async (props: Tprops) => {
 
   setVar({
     args: {},
-    pass: { keyPath: ['all.temp.fireInit'], value: fbInit },
+    pass: { keyPath: ['all.temp.fireInit'], value: [fbInit] },
   });
 };
