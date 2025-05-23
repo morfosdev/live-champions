@@ -101,14 +101,7 @@ Times e Placar`
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{width: "50px", borderWidth: "1px", borderColor: "#FFF", alignItems: "center",}`],
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
