@@ -119,7 +119,22 @@ Times e Placar`
         }
         ]
  , trigger: 'on press'
-}})],            childrenItems:[() =><></>],
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `Teste`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
