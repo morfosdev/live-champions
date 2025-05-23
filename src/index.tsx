@@ -217,7 +217,7 @@ zIndex: "-1px",
 'dataToSet': {name: "Carlos", phone: "1111"}, 
 'toggles': { 
 'box1': true, 'checkbox1': false } 
-, 'firebaseConfig ': {
+, 'firebaseConfig': {
   apiKey: "AIzaSyDjAfyEUADq7EaRyFWlGFjP1Eoox9LJHgI",
   authDomain: "devs-tests-95208.firebaseapp.com",
   projectId: "devs-tests-95208",
@@ -234,7 +234,7 @@ zIndex: "-1px",
           const arrInitFuncs = [
             async (...args) =>
   functions.firebase.fireInit({ args, pass:{
-   fbConfig: `all.firebase`,
+   fbConfig: `all.firebaseConfig`,
 
         }})
           ];
