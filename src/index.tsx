@@ -384,10 +384,28 @@ top: "300px",
 width: "100%",
 flexDirection: "row",
 backgroundColor: "#FFF",
-opacity: "60%",
+opacity: "30%",
+borderRadius: "45px",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Nome`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
