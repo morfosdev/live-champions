@@ -1,6 +1,5 @@
 
 // ---------- set Local Imports
-import JSON5 from 'json5';
 import { initializeApp } from 'firebase/app';
 import { setVar } from '../';
 
@@ -17,19 +16,14 @@ export const fireInit = async (props: Tprops) => {
   }
 
   console.log('BOX', { fbConfig });
-  const parsedObject = JSON5.parse(fbConfig);
 
-  // ---------- set Caps Inputs
-  if (typeof parsedObject === 'object') {
-    // ---------- set FB Init on a Variable
-    const fbInit = initializeApp(parsedObject, 'secondary');
-    console.log({ fbInit });
+  // ---------- set FB Init on a Variable
+  const fbInit = initializeApp(fbConfig, 'secondary');
+  console.log({ fbInit });
 
-    setVar({
-      args: {},
-      pass: { keyPath: ['all.temp.fireInit'], value: fbInit },
-    });
-  } else {
-    console.log('parsedObject precisa ser um objeto', { parsedObject });
-  }
+  setVar({
+    args: {},
+    pass: { keyPath: ['all.temp.fireInit'], value: fbInit },
+  });
+
 };
