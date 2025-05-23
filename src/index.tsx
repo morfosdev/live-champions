@@ -234,7 +234,7 @@ zIndex: "-1px",
           const arrInitFuncs = [
             async (...args) =>
   functions.firebase.fireInit({ args, pass:{
-   fbConfig: `$var_all.firebase`,
+   fbConfig: `all.firebase`,
 
         }})
           ];
