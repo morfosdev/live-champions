@@ -48,7 +48,22 @@ width: "100%",
 flexDirection: "row",
 }`],
 
+            functions:[()=>{}],            childrenItems:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "50px",
+borderRadius: "10px",
+backgroundColor: "#FFF",
+}`],
+
             functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
