@@ -110,7 +110,7 @@ padding: "20px",
 
       styles:[{
 position: "absolute",
-width: "100%",
+width: "391px",
 height: "100%",
 zIndex: "-1px",
 }],
