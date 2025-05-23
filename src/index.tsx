@@ -59,7 +59,7 @@ borderRadius: "10px",
 backgroundColor: "#FFF",
 position: "absolute",
 top: "170px",
-left: "100px",
+left: "80px",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
