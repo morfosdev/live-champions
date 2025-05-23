@@ -218,7 +218,7 @@ flexDirection: "row",
           propsArray: [{}],
 
           stylesArray: [`{
-width: "100px",
+width: "200px",
 height: "30px",
 borderRadius: "10px",
 backgroundColor: "#FFF",
@@ -234,6 +234,19 @@ opacity: "80%",
           args,
         }}/>, 
         
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "10px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -269,19 +282,6 @@ color: "#FFF",
           args,
 
         }}/>],
-
-            args,
-          }}/>
-        , 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{
-width: "10px",
-}`],
-
-            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
