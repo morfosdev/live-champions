@@ -59,7 +59,22 @@ borderRadius: "10px",
 backgroundColor: "#FFF",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `0`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
