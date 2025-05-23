@@ -346,7 +346,7 @@ zIndex: "-1px",
  functions.funcGroup({ args, pass:{
  arrFunctions: [async (...args) =>
         functions.firebase.getDocsTool({ args, pass:{
-   arrRefStrings: [`users`],
+   arrRefStrings: [`championsScores`],
             arrFuncs: [()=>{}],
         }})]
  , trigger: 'on press'
