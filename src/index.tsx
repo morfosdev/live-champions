@@ -213,7 +213,8 @@ justifyContent: "center",
 flexDirection: "row",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
 
           stylesArray: [`{
@@ -231,7 +232,44 @@ opacity: "80%",
           funcsArray: [() => {}],
 
           args,
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100px",
+padding: "10px",
+borderWidth: "1px",
+borderColor: "#FFF",
+}`],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Salvar`
+          ],
+
+          args,
+
         }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
