@@ -329,6 +329,7 @@ zIndex: "-1px",
               ],
 
           screenElements:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -347,6 +348,48 @@ zIndex: "-1px",
  arrFunctions: [async (...args) =>
         functions.firebase.getDocsTool({ args, pass:{
    arrRefStrings: [`championsScores`],
+            arrFuncs: [()=>{}],
+        }})]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `getCollection`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.firebase.setDocTool({ args, pass:{
+  arrRefStrings: [`championsScores`],
+            arrPathData: [`sc.A0.forms.iptsChanges`],
             arrFuncs: [()=>{}],
         }})]
  , trigger: 'on press'
