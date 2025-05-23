@@ -198,7 +198,26 @@ justifyContent: "center",
 
           args,
 
-        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100px",
+height: "30px",
+borderRadius: "10px",
+backgroundColor: "#FFF",
+position: "absolute",
+top: "240px",
+left: "40px",
+alignItems: "center",
+justifyContent: "center",
+opacity: "80%",
+flexDirection: "row"",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
 
           stylesArray: [`{
@@ -220,6 +239,10 @@ opacity: "80%",
 
           args,
         }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
