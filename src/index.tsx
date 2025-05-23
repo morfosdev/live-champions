@@ -182,7 +182,14 @@ padding: "20px",
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            `{
+color: "#FFF",
+position: "absolute",
+top: "200px",
+left: "40px",
+alignItems: "center",
+justifyContent: "center",
+}`
           ],
 
           children: [
