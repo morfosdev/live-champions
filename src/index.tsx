@@ -175,8 +175,7 @@ padding: "20px",
 
             args,
           }}/>
-        , 
-        (...args:any) => <Elements.Text pass={{
+        , (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -198,44 +197,7 @@ justifyContent: "center",
 
           args,
 
-        }}/>, 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{
-width: "100px",
-height: "30px",
-borderRadius: "10px",
-backgroundColor: "#FFF",
-position: "absolute",
-top: "240px",
-left: "40px",
-alignItems: "center",
-justifyContent: "center",
-opacity: "80%",
-flexDirection: "row"",
-}`],
-
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
-          propsArray: [{}],
-
-          stylesArray: [{
-                color: 'black',
-                fontSize: 14,
-                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
-              }],
-
-          path: [" "],
-
-          funcsArray: [() => {}],
-
-          args,
         }}/>],
-
-            args,
-          }}/>
-        ],
 
             args,
           }}/>
