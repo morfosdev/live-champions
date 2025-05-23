@@ -238,10 +238,11 @@ opacity: "80%",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "100px",
+width: "80px",
 padding: "10px",
 borderWidth: "1px",
 borderColor: "#FFF",
+borderRadius: "15px",
 }`],
 
             functions:[async (...args) =>
