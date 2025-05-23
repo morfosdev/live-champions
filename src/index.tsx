@@ -78,6 +78,7 @@ opacity: "80%",
 	};
 
 	const style_2 = {
+               backgroundColor: "#0064FE",
 		alignItems: "center",
 		justifyContent: "center",
 		borderRadius: 3,
