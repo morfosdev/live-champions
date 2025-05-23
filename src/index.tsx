@@ -63,6 +63,7 @@ top: "170px",
 left: "80px",
 alignItems: "center",
 justifyContent: "center",
+opacity: "80%",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
