@@ -361,6 +361,9 @@ width: "90%",
 backgroundColor: "#FFF",
 opacity: "60%",
 alignItems: "center",
+broderRadius: "15px",
+position: "absolute',
+top: "300px",
 }`],
 
             functions:[()=>{}],            childrenItems:[
