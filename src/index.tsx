@@ -58,7 +58,8 @@ width: "50px",
 borderRadius: "10px",
 backgroundColor: "#FFF",
 position: "absolute",
-top: "150px",
+top: "170px",
+left: "100px",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
