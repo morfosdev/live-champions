@@ -412,7 +412,7 @@ zIndex: "-1px",
             arrFuncs: [(args) => {
  console.log({ args });
 
- const path = "";
+ const path = "sc.A0.lists.list1";
  const pass = { keyPath: [path], value: [] };
  tools.functions.setVar({ args: "", pass });
 }],
