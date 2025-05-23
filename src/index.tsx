@@ -230,7 +230,8 @@ zIndex: "-1px",
 
           const initCt = () => (
  {
- 'all': { 
+ 
+        'all': { 
 'colors': { 
 'primary': "#fff", 'secondary': "#0064fe" } 
 , 
@@ -253,6 +254,11 @@ zIndex: "-1px",
   messagingSenderId: "750912250366",
   appId: "1:750912250366:web:4629eac789a718a74220af"
 } } 
+, 'sc': { 'A0': { 'forms': { 'iptsChanges': { 
+'psg': "", 'inter': "" } 
+ } 
+ } 
+ } 
  
 } 
  );
