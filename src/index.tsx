@@ -71,7 +71,7 @@ opacity: "80%",
 	const [sttNumber, setNumber] = React.useState(0);
 
  const path1 = "sc.A0.forms.iptsChanges.psg";
- const pass1 = { keyPath: [path1], value: [sttNumber] };
+ const pass1 = { keyPath: [path1], value: [String(sttNumber)] };
  tools.functions.setVar({ args: '', pass: pass1 });
 
 	const style_1 = {
