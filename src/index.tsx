@@ -61,6 +61,7 @@ backgroundColor: "#FFF",
 position: "absolute",
 top: "170px",
 left: "80px",
+alignItems: "center",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
