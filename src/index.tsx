@@ -232,7 +232,7 @@ paddingHorizontal: "10px",
           funcsArray: [async (...args) =>
         functions.setVar({ args, pass:{
           keyPath: [`sc.A0.forms.iptsChanges.userName`],
-          value: [$arg_callback]
+          value: ["$arg_callback"]
         }})],
 
           args,
