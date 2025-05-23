@@ -204,16 +204,12 @@ justifyContent: "center",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "100px",
-height: "30px",
-borderRadius: "10px",
-backgroundColor: "#FFF",
+width: "100%",
 position: "absolute",
 top: "240px",
 left: "40px",
 alignItems: "center",
 justifyContent: "center",
-opacity: "80%",
 flexDirection: "row"",
 }`],
 
