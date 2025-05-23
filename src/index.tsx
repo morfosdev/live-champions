@@ -229,7 +229,11 @@ paddingHorizontal: "10px",
 
           path: [" "],
 
-          funcsArray: [() => {}],
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`temp.userName`],
+          value: [$arg_callback]
+        }})],
 
           args,
         }}/>, 
@@ -262,7 +266,11 @@ alignItems: "center",
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [()=>{}]
+ arrFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`sc.A0.forms.iptsChanges.userName`],
+          value: [`temp.userName`]
+        }})]
  , trigger: 'on press'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
