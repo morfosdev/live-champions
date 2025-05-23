@@ -216,18 +216,11 @@ flexDirection: "row",
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
 
-          stylesArray: [`{
-width: "100px",
-height: "30px",
-borderRadius: "10px",
-backgroundColor: "#FFF",
-position: "absolute",
-top: "240px",
-left: "40px",
-alignItems: "center",
-justifyContent: "center",
-opacity: "80%",
-}`],
+          stylesArray: [{
+                color: 'black',
+                fontSize: 14,
+                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!
+              }],
 
           path: [" "],
 
