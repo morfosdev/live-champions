@@ -125,7 +125,7 @@ Times e Placar`
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            `{color: "#FFF",}`
           ],
 
           children: [
