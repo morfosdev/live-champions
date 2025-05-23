@@ -112,7 +112,7 @@ padding: "20px",
 position: "absolute",
 width: "100%",
 height: "100%",
-zIndex: "-2px",
+zIndex: "-1px",
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Ffundo%20completo.jpg?alt=media&token=f8e3abcb-ed85-4562-8a98-000ce4751f02`],
