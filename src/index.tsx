@@ -137,6 +137,10 @@ opacity: "80%",
             functions:[()=>{}],            childrenItems:[() => {
 	const [sttNumber, setNumber] = React.useState(0);
 
+ const path1 = "sc.A0.forms.iptsChanges.inter";
+ const pass1 = { keyPath: [path1], value: [String(sttNumber)] };
+ tools.functions.setVar({ args: '', pass: pass1 });
+
 	const style_1 = {
 		flexDirection: "row",
 		flex: 1,
