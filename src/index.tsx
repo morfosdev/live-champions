@@ -238,7 +238,7 @@ opacity: "80%",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "80px",
+width: "60px",
 padding: "10px",
 borderWidth: "1px",
 borderColor: "#FFF",
