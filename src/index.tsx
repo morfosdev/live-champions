@@ -48,22 +48,7 @@ width: "100%",
 flexDirection: "row",
 }`],
 
-            functions:[()=>{}],            childrenItems:[
-
-    (...args:any) => <Elements.ImageBox pass={{
-      elementsProperties:[{}],
-
-      styles:[{
-position: "absolute",
-width: "100%",
-height: "150px",
-zIndex: "-1px",
-}],
-
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Ftopo%20bg.png?alt=media&token=901524ef-9c9b-496f-83aa-7ccc240858e7`],
-
-      args,
-    }}/>],
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
@@ -130,7 +115,7 @@ height: "100%",
 zIndex: "-2px",
 }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FUEFA%20fundo.png?alt=media&token=10be4eca-ba49-47bd-8907-99728cf70b59`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Ffundo%20completo.jpg?alt=media&token=f8e3abcb-ed85-4562-8a98-000ce4751f02`],
 
       args,
     }}/>],
