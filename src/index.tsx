@@ -175,7 +175,23 @@ padding: "20px",
 
             args,
           }}/>
-        , (...args:any) => <Elements.IptTxtEdit pass={{
+        , 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `Nome do Jogador`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
           propsArray: [{}],
 
           stylesArray: [`{
