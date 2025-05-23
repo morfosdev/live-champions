@@ -56,7 +56,7 @@ flexDirection: "row",
       styles:[{
 position: "absolute",
 width: "100%",
-height: "100px",
+height: "150px",
 zIndex: "-1px",
 }],
 
