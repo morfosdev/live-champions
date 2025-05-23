@@ -177,7 +177,11 @@ zIndex: "-1px",
                     </RN.Text>);
                 }],
 
-          functions:[()=>{}],
+          functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on init'
+}})],
 
           args,
         }}/>
@@ -215,7 +219,11 @@ zIndex: "-1px",
           // console.log(initObj);
 
           const arrInitFuncs = [
-            ()=>{}
+            async (...args) =>
+  functions.firebase.fireInit({ args, pass:{
+   fbConfig: `all.firebase`,
+
+        }})
           ];
 
           export const useRoutes = create(() => ({ currRoute }));
