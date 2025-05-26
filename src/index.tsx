@@ -489,6 +489,7 @@ color: "#FFF",
 flexDirection: "row",
 alignItems: "center",
 justifyContent: "center",
+backgroundColor:  "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[
