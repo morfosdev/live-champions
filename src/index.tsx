@@ -413,7 +413,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Vitórias:`
+            `Vitórias: `
           ],
 
           args,
