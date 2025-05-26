@@ -412,7 +412,7 @@ color: "#FFF",
 
           children: [
             
-        `PSG:`, ``
+        `PSG:`, `$var_sc.A0.result.psg`
           ],
 
           args,
