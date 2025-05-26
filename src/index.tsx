@@ -534,6 +534,7 @@ flex: 1,
 alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
+flexDirection: "row',
 }`],
 
             functions:[()=>{}],            childrenItems:[
