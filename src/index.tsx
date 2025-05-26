@@ -399,7 +399,22 @@ alignItems: "center",
 justifyContent: "center",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() =><></>],
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `PSG:`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
