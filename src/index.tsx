@@ -363,7 +363,7 @@ color: "#FFF",
             styles: [`{
 width: "95%",
 height: "200px",
-backgroundColor: "rgba(255,255,255,0.6)"
+backgroundColor: "rgba(255,255,255,0.6)",
 alignItems: "center",
 borderRadius: "15px",
 position: "absolute",
