@@ -413,6 +413,24 @@ color: "#FFF",
           ],
 
           children: [
+            `Vitórias: `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
             `PSG: `
           ],
 
@@ -449,24 +467,6 @@ color: "#FFF",
           ],
 
           children: [
-            ` Vitórias `
-          ],
-
-          args,
-
-        }}/>, 
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{
-color: "#FFF",
-}`
-          ],
-
-          children: [
             `Inter: `
           ],
 
@@ -486,24 +486,6 @@ color: "#FFF",
 
           children: [
             `$var_sc.A0.result.inter`
-          ],
-
-          args,
-
-        }}/>, 
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{
-color: "#FFF",
-}`
-          ],
-
-          children: [
-            ` Vitórias `
           ],
 
           args,
