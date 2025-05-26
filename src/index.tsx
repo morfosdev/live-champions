@@ -1119,42 +1119,6 @@ padding: "20px",
 }`],
 
             functions:[()=>{}],            childrenItems:[
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{width: "50px", borderWidth: "1px", borderColor: "#FFF", alignItems: "center", opacity: "0%"}`],
-
-            functions:[async (...args) =>
- functions.funcGroup({ args, pass:{
- arrFunctions: [
-        (...args) => {
-          // ---------- get Function from A_Project Scope
-          return tools.goTo("tests");
-        }
-        ]
- , trigger: 'on press'
-}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{color: "#FFF",}`
-          ],
-
-          children: [
-            `Teste`
-          ],
-
-          args,
-
-        }}/>],
-
-            args,
-          }}/>
-        , 
         (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
@@ -1591,7 +1555,7 @@ color: "#FFF",
             ``
           ],
 
-          pData: `sc.A0.lists.list1`,
+          pData: '',
 
           itemElements: [
             
@@ -1831,35 +1795,7 @@ right: 7,
       args,
     }}/>],
 
-          functions:[async (...args) =>
- functions.funcGroup({ args, pass:{
- arrFunctions: [async (...args) =>
-        functions.firebase.getDocsTool({ args, pass:{
-   arrRefStrings: [`championsScores`],
-            arrFuncs: [(args) => {
- console.log({ args });
- const path1 = 'sc.A0.lists.list1';
- const path2 = 'sc.A0.result';
-
-  const vitorias = { psg: 0, inter: 0, empate: 0 };
-args.forEach(p => {
-  const psgGols = parseInt(p.psg);
-  const interGols = parseInt(p.inter);
-
-  if (psgGols > interGols) vitorias.psg++;
-    else if (interGols > psgGols) vitorias.inter++;
-    else vitorias.empate++;
-});
-
- const pass1 = { keyPath: [path1], value: [args] };
- tools.functions.setVar({ args: '', pass: pass1 });
-
- const pass2 = { keyPath: [path2], value: [vitorias] };
- tools.functions.setVar({ args: '', pass: pass2 });
-}],
-        }})]
- , trigger: 'on init'
-}})],
+          functions:[()=>{}],
 
           args,
         }}/>, 
