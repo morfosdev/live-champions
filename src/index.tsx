@@ -393,7 +393,7 @@ height: "5px",
             styles:[`{
 width: "250px",
 flexDirection: "row",
-backgroundColor: 'rgba(255,255,255,0.6)',
+backgroundColor: 'rgba(255,255,255,0.4)',
 borderRadius: "15px",
 alignItems: "center",
 justifyContent: "center",
