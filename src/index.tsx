@@ -510,7 +510,7 @@ paddingVertical: "5px",
 
           arrStyles: [
             `{
-color: "#FFF",
+color: "#CCC",
 }`
           ],
 
@@ -544,7 +544,7 @@ paddingVertical: "5px",
 
           arrStyles: [
             `{
-color: "#FFF",
+color: "#CCC",
 }`
           ],
 
@@ -577,7 +577,7 @@ paddingVertical: "5px",
 
           arrStyles: [
             `{
-color: "#FFF",
+color: "#CCC",
 }`
           ],
 
