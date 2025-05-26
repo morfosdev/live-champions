@@ -418,7 +418,8 @@ color: "#FFF",
 
           args,
 
-        }}/>, (...args:any) => <Elements.Text pass={{
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -431,6 +432,41 @@ color: "#FFF",
 
           children: [
             `$var_sc.A0.result.psg`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Vitórias`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Inter:`
           ],
 
           args,
