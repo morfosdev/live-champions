@@ -400,7 +400,8 @@ alignItems: "center",
 justifyContent: "center",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -412,8 +413,24 @@ color: "#FFF",
           ],
 
           children: [
-            
-        `PSG:`, `$var_sc.A0.result.psg`
+            `PSG:`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `$var_sc.A0.result.psg`
           ],
 
           args,
