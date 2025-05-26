@@ -410,6 +410,7 @@ flex: 1,
 alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
+backgroundColor: "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -443,6 +444,7 @@ flex: 1,
 alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
+backgroundColor: "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -500,6 +502,7 @@ flex: 1,
 alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
+backgroundColor: "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -547,6 +550,7 @@ flex: 1,
 alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
+backgroundColor: "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -614,6 +618,7 @@ flex: 1,
 alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
+backgroundColor: "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
