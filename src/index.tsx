@@ -380,7 +380,7 @@ top: "300px",
 width: "100%",
 flexDirection: "row",
 backgroundColor: "#CCC",
-borderRadius: "45px",
+borderRadius: "15px",
 }`],
 
             functions:[()=>{}],            childrenItems:[
