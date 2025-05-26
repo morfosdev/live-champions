@@ -537,6 +537,7 @@ alignItems: "center",
 justifyContent: "center",
 paddingVertical: "5px",
 flexDirection: "row",
+backgroundColor:  "transparent",
 }`],
 
             functions:[()=>{}],            childrenItems:[
