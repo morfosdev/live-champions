@@ -205,7 +205,7 @@ padding: "20px",
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[`{width: "50px", borderWidth: "1px", borderColor: "#FFF", alignItems: "center",}`],
+            styles:[`{width: "50px", borderWidth: "1px", borderColor: "#FFF", alignItems: "center", opacity: "0%"}`],
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
