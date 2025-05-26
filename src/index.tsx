@@ -399,22 +399,7 @@ alignItems: "center",
 justifyContent: "center",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            { color: 'black', fontSize: 12, }
-          ],
-
-          children: [
-            `$var_sc.A0.result`
-          ],
-
-          args,
-
-        }}/>],
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
