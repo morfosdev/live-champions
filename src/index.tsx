@@ -727,7 +727,7 @@ height: "100%",
 zIndex: "-1px",
 }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2Ffundo%20completo.jpg?alt=media&token=f8e3abcb-ed85-4562-8a98-000ce4751f02`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Ffinal%201.png?alt=media&token=d5627ef4-6203-43c8-a13d-3ab594d986cd`],
 
       args,
     }}/>],
