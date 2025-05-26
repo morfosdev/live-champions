@@ -476,18 +476,129 @@ color: "#FFF",
             {}
           ],
 
-          pData: ``,
+          pData: `sc.A0.lists.bets`,
 
           itemElements: [
             
-              (...args) => {
-                return (
-                  <RN.Text>
-                    Adicione os campos que quer mostrar aqui.
-                  </RN.Text>
-                );
-              }
-              
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "250px",
+flexDirection: "row",
+backgroundColor: "#000",
+borderRadius: "15px",
+alignItems: "center",
+justifyContent: "center",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `userName`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `psg`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `inter`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        
           ],
 
       styles:[
