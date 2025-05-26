@@ -321,7 +321,7 @@ width: "60px",
 padding: "5px",
 borderWidth: "1px",
 borderColor: "#FFF",
-borderRadius: "10px",
+borderRadius: "5px",
 alignItems: "center",
 }`],
 
