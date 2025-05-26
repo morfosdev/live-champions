@@ -280,7 +280,7 @@ flexDirection: "row",
           stylesArray: [`{
 width: "200px",
 height: "30px",
-borderRadius: "10px",
+borderRadius: "5px",
 backgroundColor: "#FFF",
 alignItems: "center",
 justifyContent: "center",
