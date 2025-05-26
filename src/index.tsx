@@ -396,7 +396,7 @@ justifyContent: "center",
 flex: 1,
 alignItems: "center",
 justifyContent: "center",
-paddingVertical: "10px",
+paddingVertical: "5px",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
@@ -429,7 +429,7 @@ color: "#FFF",
 flex: 1,
 alignItems: "center",
 justifyContent: "center",
-paddingVertical: "10px",
+paddingVertical: "5px",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
