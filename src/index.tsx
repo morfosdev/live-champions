@@ -393,6 +393,25 @@ height: "5px",
             styles:[`{
 width: "250px",
 flexDirection: "row",
+backgroundColor: 'rgba(255,255,255,0.6)',
+borderRadius: "15px",
+alignItems: "center",
+justifyContent: "center",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "250px",
+flexDirection: "row",
 backgroundColor: 'rgba(255,255,255,0.4)',
 borderRadius: "15px",
 alignItems: "center",
