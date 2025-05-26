@@ -392,6 +392,7 @@ height: "5px",
 
             styles:[`{
 width: "250px",
+minHeight: 20,
 flexDirection: "row",
 backgroundColor: 'rgba(255,255,255,0.6)',
 borderRadius: "15px",
