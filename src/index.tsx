@@ -413,7 +413,7 @@ color: "#FFF",
           ],
 
           children: [
-            `PSG:`
+            `PSG: `
           ],
 
           args,
@@ -449,12 +449,26 @@ color: "#FFF",
           ],
 
           children: [
-            `Vitórias`
+            ` Vitórias `
           ],
 
           args,
 
         }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: 5px
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
         (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
@@ -467,7 +481,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Inter:`
+            `Inter: `
           ],
 
           args,
@@ -503,12 +517,26 @@ color: "#FFF",
           ],
 
           children: [
-            `Vitórias`
+            ` Vitórias `
           ],
 
           args,
 
         }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: 5px
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
         (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
@@ -521,7 +549,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Empate:`
+            `Empate: `
           ],
 
           args,
