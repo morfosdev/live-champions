@@ -858,6 +858,7 @@ zIndex: "-1px",
 
       args,
     }}/>, 
+        
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
@@ -872,6 +873,23 @@ left: 7,
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Fpsg.png?alt=media&token=d50aff75-48bd-40b6-95c2-609921da717b`],
+
+      args,
+    }}/>, 
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{
+position: "absolute",
+width: "80px",
+height: "80px",
+zIndex: "-1px",
+top: 109,
+right: 7,
+}],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Finter.png?alt=media&token=ab18d840-6f64-4297-8e3d-8997a0abe2bd`],
 
       args,
     }}/>],
