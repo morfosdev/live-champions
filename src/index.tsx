@@ -378,7 +378,7 @@ top: "280px",
             elementsProperties:['{}'],
 
             styles:[`{
-height: "10px",
+height: "5px",
 }`],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
