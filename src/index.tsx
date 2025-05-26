@@ -561,7 +561,7 @@ color: "#CCC",
           ],
 
           children: [
-            `psg`
+            `1`
           ],
 
           args,
@@ -628,7 +628,7 @@ color: "#CCC",
           ],
 
           children: [
-            `inter`
+            `1`
           ],
 
           args,
