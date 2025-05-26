@@ -431,7 +431,7 @@ color: "#FFF",
           ],
 
           children: [
-            `PSG: `
+            `PSG `
           ],
 
           args,
@@ -467,7 +467,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Inter: `
+            ` Inter `
           ],
 
           args,
@@ -503,7 +503,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Empate: `
+            ` Empate: `
           ],
 
           args,
