@@ -476,7 +476,7 @@ color: "#FFF",
             {}
           ],
 
-          pData: `sc.A0.lists.bets`,
+          pData: `sc.A0.lists.list1`,
 
           itemElements: [
             
@@ -687,7 +687,7 @@ zIndex: "-1px",
    arrRefStrings: [`championsScores`],
             arrFuncs: [async (...args) =>
         functions.setVar({ args, pass:{
-          keyPath: [`sc.A0.lists.bets`],
+          keyPath: [`sc.A0.lists.list1`],
           value: ['no value']
         }})],
         }})]
