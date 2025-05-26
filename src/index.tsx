@@ -655,14 +655,9 @@ color: "#CCC",
         
           ],
 
-      styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],    args,
+      styles:[`{
+backgroundColor:  "transparent",
+}`],    args,
         }}/>],
             args,
         }}/>],
