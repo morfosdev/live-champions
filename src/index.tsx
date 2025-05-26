@@ -395,7 +395,7 @@ justifyContent: "center",
             styles:[`{
 flex: 1,
 alignItems: "center",
-justifyContent: "center',
+justifyContent: "center",
 paddingVertical: "10px",
 }`],
 
@@ -428,7 +428,7 @@ color: "#FFF",
             styles:[`{
 flex: 1,
 alignItems: "center",
-justifyContent: "center',
+justifyContent: "center",
 paddingVertical: "10px",
 }`],
 
