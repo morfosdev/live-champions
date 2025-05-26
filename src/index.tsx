@@ -944,6 +944,925 @@ args.forEach(p => {
 
           args,
         }}/>, 
+        
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"sc0",
+
+          styles:[`{
+width: "100%",
+height: "100%",
+backgroundColor: "#FFF",
+alignItems: "center",
+}`],
+
+          screenElements:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+flexDirection: "row",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "30px",
+height: "30px",
+borderRadius: "10px",
+backgroundColor: "#FFF",
+position: "absolute",
+top: "170px",
+left: "80px",
+alignItems: "center",
+justifyContent: "center",
+opacity: "80%",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() => {
+	const [sttNumber, setNumber] = React.useState(0);
+
+ const path1 = "sc.A0.forms.iptsChanges.psg";
+ const pass1 = { keyPath: [path1], value: [String(sttNumber)] };
+ tools.functions.setVar({ args: '', pass: pass1 });
+
+	const style_1 = {
+		flexDirection: "row",
+		flex: 1,
+		alignItems: "center",
+		justifyContent: "center"
+	};
+
+	const style_2 = {
+               backgroundColor: "#0064FE",
+		alignItems: "center",
+		justifyContent: "center",
+		borderRadius: 3,
+		width: 20,
+		height: 20
+	};
+	
+	const style_3 = {
+		marginHorizontal: 20
+	};
+
+	const style_4 = {
+		color: "#FFF",
+		lineHeight: 0
+	};
+
+	return (
+		<RN.View style={style_1}>
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => Math.max(0, i - 1))}>
+				<RN.Text style={style_4}>-</RN.Text>
+			</RN.Pressable>
+
+			<RN.Text style={style_3}>{sttNumber}</RN.Text>
+
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => i + 1)}>
+				<RN.Text style={style_4}>+</RN.Text>
+			</RN.Pressable>
+		</RN.View>
+	);
+}],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "30px",
+height: "30px",
+borderRadius: "10px",
+backgroundColor: "#FFF",
+position: "absolute",
+top: "170px",
+right: "80px",
+alignItems: "center",
+justifyContent: "center",
+opacity: "80%",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() => {
+	const [sttNumber, setNumber] = React.useState(0);
+
+ const path1 = "sc.A0.forms.iptsChanges.inter";
+ const pass1 = { keyPath: [path1], value: [String(sttNumber)] };
+ tools.functions.setVar({ args: '', pass: pass1 });
+
+	const style_1 = {
+		flexDirection: "row",
+		flex: 1,
+		alignItems: "center",
+		justifyContent: "center"
+	};
+
+	const style_2 = {
+               backgroundColor: "#0064FE",
+		alignItems: "center",
+		justifyContent: "center",
+		borderRadius: 3,
+		width: 20,
+		height: 20
+	};
+	
+	const style_3 = {
+		marginHorizontal: 20
+	};
+
+	const style_4 = {
+		color: "#FFF",
+		lineHeight: 0
+	};
+
+	return (
+		<RN.View style={style_1}>
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => Math.max(0, i - 1))}>
+				<RN.Text style={style_4}>-</RN.Text>
+			</RN.Pressable>
+
+			<RN.Text style={style_3}>{sttNumber}</RN.Text>
+
+			<RN.Pressable style={style_2} onPress={() => setNumber(i => i + 1)}>
+				<RN.Text style={style_4}>+</RN.Text>
+			</RN.Pressable>
+		</RN.View>
+	);
+}],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+alignItems: "center",
+padding: "20px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{width: "50px", borderWidth: "1px", borderColor: "#FFF", alignItems: "center", opacity: "0%"}`],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("tests");
+        }
+        ]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{color: "#FFF",}`
+          ],
+
+          children: [
+            `Teste`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+position: "absolute",
+top: "220px",
+left: "40px",
+alignItems: "center",
+justifyContent: "center",
+}`
+          ],
+
+          children: [
+            `Nome do Jogador`
+          ],
+
+          args,
+
+        }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+position: "absolute",
+top: "240px",
+alignItems: "center",
+justifyContent: "center",
+flexDirection: "row",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [`{
+width: "200px",
+height: "30px",
+borderRadius: "5px",
+backgroundColor: "#FFF",
+alignItems: "center",
+justifyContent: "center",
+opacity: "80%",
+paddingHorizontal: "10px",
+}`],
+
+          path: [" "],
+
+          funcsArray: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`sc.A0.forms.iptsChanges.userName`],
+          value: [`$arg_callback`]
+        }})],
+
+          args,
+        }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "10px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "60px",
+padding: "5px",
+borderWidth: "1px",
+borderColor: "#FFF",
+borderRadius: "5px",
+alignItems: "center",
+}`],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.firebase.setDocTool({ args, pass:{
+  arrRefStrings: [`championsScores`],
+            arrPathData: [`sc.A0.forms.iptsChanges`],
+            arrFuncs: [()=>{}],
+        }})]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Salvar`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        , (...args:any) => <Elements.ScrollBar pass={{
+            styles: [`{
+width: "95%",
+height: "280px",
+backgroundColor: "rgba(255,255,255,0.2)",
+alignItems: "center",
+borderRadius: "15px",
+position: "absolute",
+top: "280px",
+}`],
+            arrProps: [],
+            arrItems: [
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+height: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "250px",
+minHeight: 20,
+flexDirection: "row",
+backgroundColor: 'rgba(0,0,0,0.6)',
+borderRadius: "15px",
+alignItems: "center",
+justifyContent: "center",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Vitórias: `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `PSG `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `$var_sc.A0.result.psg`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `  |  `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            ` Inter `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `$var_sc.A0.result.inter`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `  |  `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            ` Empates: `
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `$var_sc.A0.result.empate`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+height: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "250px",
+flexDirection: "row",
+backgroundColor: 'rgba(255,255,255,0.4)',
+borderRadius: "15px",
+alignItems: "center",
+justifyContent: "center",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+backgroundColor: "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Nome`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+backgroundColor: "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Placar`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        , (...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            ``
+          ],
+
+          pData: `sc.A0.lists.list1`,
+
+          itemElements: [
+            
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flexDirection: "row",
+alignItems: "center",
+justifyContent: "center",
+backgroundColor:  "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+backgroundColor: "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#CCC",
+}`
+          ],
+
+          children: [
+            `$arg_userName`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+flexDirection: "row",
+backgroundColor:  "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+backgroundColor: "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#CCC",
+}`
+          ],
+
+          children: [
+            `$arg_psg`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "10px",
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#CCC",
+}`
+          ],
+
+          children: [
+            `X`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+backgroundColor: "transparent",
+}`],
+
+            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#CCC",
+}`
+          ],
+
+          children: [
+            `$arg_inter`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        ],
+
+            args,
+          }}/>
+        
+          ],
+
+      styles:[`{
+backgroundColor:  "transparent",
+}`],    args,
+        }}/>],
+            args,
+        }}/>],
+
+            args,
+          }}/>
+        , 
+        
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{
+position: "absolute",
+width: "300px",
+height: "100%",
+zIndex: "-1px",
+}],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Ffinal-1.jpg?alt=media&token=73099bd8-7e9a-4d91-97bc-c1c319ce6c91`],
+
+      args,
+    }}/>, 
+        
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{
+position: "absolute",
+width: "80px",
+height: "80px",
+zIndex: "-1px",
+top: 109,
+left: 7,
+}],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Fpsg.png?alt=media&token=d50aff75-48bd-40b6-95c2-609921da717b`],
+
+      args,
+    }}/>, 
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{
+position: "absolute",
+width: "83px",
+height: "83px",
+zIndex: "-1px",
+top: 109,
+right: 7,
+}],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Finter.png?alt=media&token=ab18d840-6f64-4297-8e3d-8997a0abe2bd`],
+
+      args,
+    }}/>],
+
+          functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.firebase.getDocsTool({ args, pass:{
+   arrRefStrings: [`championsScores`],
+            arrFuncs: [(args) => {
+ console.log({ args });
+ const path1 = 'sc.A0.lists.list1';
+ const path2 = 'sc.A0.result';
+
+  const vitorias = { psg: 0, inter: 0, empate: 0 };
+args.forEach(p => {
+  const psgGols = parseInt(p.psg);
+  const interGols = parseInt(p.inter);
+
+  if (psgGols > interGols) vitorias.psg++;
+    else if (interGols > psgGols) vitorias.inter++;
+    else vitorias.empate++;
+});
+
+ const pass1 = { keyPath: [path1], value: [args] };
+ tools.functions.setVar({ args: '', pass: pass1 });
+
+ const pass2 = { keyPath: [path2], value: [vitorias] };
+ tools.functions.setVar({ args: '', pass: pass2 });
+}],
+        }})]
+ , trigger: 'on init'
+}})],
+
+          args,
+        }}/>, 
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"tests",
