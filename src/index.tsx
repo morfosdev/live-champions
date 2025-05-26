@@ -380,7 +380,7 @@ top: "280px",
             styles:[`{
 width: "250px",
 flexDirection: "row",
-backgroundColor: "#CCC",
+backgroundColor: "#FF0",
 borderRadius: "15px",
 alignItems: "center",
 justifyContent: "center",
