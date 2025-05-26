@@ -395,7 +395,7 @@ borderRadius: "45px",
 
           arrStyles: [
             `{
-color: "#FFF",
+color: "#000",
 }`
           ],
 
