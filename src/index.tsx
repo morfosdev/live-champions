@@ -359,8 +359,7 @@ color: "#FFF",
 
             args,
           }}/>
-        , 
-        (...args:any) => <Elements.ScrollBar pass={{
+        , (...args:any) => <Elements.ScrollBar pass={{
             styles: [`{
 width: "90%",
 height: "200px",
@@ -380,8 +379,7 @@ top: "300px",
             styles:[`{
 width: "100%",
 flexDirection: "row",
-backgroundColor: "#FFF",
-opacity: "80%",
+backgroundColor: "#CCC",
 borderRadius: "45px",
 }`],
 
@@ -426,59 +424,7 @@ color: "#FFF",
           }}/>
         ],
             args,
-        }}/>, 
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{
-width: "100%",
-flexDirection: "row",
-backgroundColor: "#FFF",
-opacity: "80%",
-borderRadius: "45px",
-}`],
-
-            functions:[()=>{}],            childrenItems:[
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{
-color: "#FFF",
-}`
-          ],
-
-          children: [
-            `Nome`
-          ],
-
-          args,
-
-        }}/>, (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{
-color: "#FFF",
-}`
-          ],
-
-          children: [
-            `Placar`
-          ],
-
-          args,
-
         }}/>],
-
-            args,
-          }}/>
-        ],
 
             args,
           }}/>
