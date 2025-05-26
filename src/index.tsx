@@ -485,10 +485,7 @@ color: "#FFF",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "250px",
 flexDirection: "row",
-backgroundColor: "#000",
-borderRadius: "15px",
 alignItems: "center",
 justifyContent: "center",
 }`],
