@@ -525,6 +525,18 @@ color: "#CCC",
             args,
           }}/>
         , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+flex: 1,
+alignItems: "center",
+justifyContent: "center",
+paddingVertical: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
         
 
           (...args:any) => <Elements.DynView pass={{
@@ -622,6 +634,10 @@ color: "#CCC",
           args,
 
         }}/>],
+
+            args,
+          }}/>
+        ],
 
             args,
           }}/>
