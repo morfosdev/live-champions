@@ -378,7 +378,7 @@ top: "280px",
             elementsProperties:['{}'],
 
             styles:[`{
-width: "200px",
+width: "250px",
 flexDirection: "row",
 backgroundColor: "#CCC",
 borderRadius: "15px",
