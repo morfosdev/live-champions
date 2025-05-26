@@ -362,7 +362,6 @@ color: "#FFF",
         , (...args:any) => <Elements.ScrollBar pass={{
             styles: [`{
 width: "95%",
-height: "200px",
 backgroundColor: "rgba(255,255,255,0.2)",
 alignItems: "center",
 borderRadius: "15px",
