@@ -405,7 +405,9 @@ justifyContent: "center",
           ],
 
           arrStyles: [
-            { color: 'black', fontSize: 12, }
+            `{
+color: "#FFF",
+}`
           ],
 
           children: [
@@ -415,6 +417,20 @@ justifyContent: "center",
           args,
 
         }}/>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+height: "5px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
