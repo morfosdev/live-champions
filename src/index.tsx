@@ -361,14 +361,14 @@ color: "#FFF",
           }}/>
         , (...args:any) => <Elements.ScrollBar pass={{
             styles: [`{
-width: "90%",
+width: "100%",
 height: "200px",
 backgroundColor: "#FFF",
 opacity: "30%",
 alignItems: "center",
 borderRadius: "15px",
 position: "absolute",
-top: "300px",
+top: "280px",
 }`],
             arrProps: [],
             arrItems: [
