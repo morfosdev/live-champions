@@ -384,7 +384,7 @@ top: "300px",
 width: "100%",
 flexDirection: "row",
 backgroundColor: "#FFF",
-opacity: "30%",
+opacity: "80%",
 borderRadius: "45px",
 }`],
 
