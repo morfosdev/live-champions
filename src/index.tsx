@@ -378,6 +378,20 @@ top: "280px",
             elementsProperties:['{}'],
 
             styles:[`{
+height: "20px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
 width: "250px",
 flexDirection: "row",
 backgroundColor: "#000",
