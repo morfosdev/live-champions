@@ -360,13 +360,10 @@ color: "#FFF",
             args,
           }}/>
         , 
-        
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:['{}'],
-
-            styles:[`{
+        (...args:any) => <Elements.ScrollBar pass={{
+            styles: [`{
 width: "90%",
+height: "300px",
 backgroundColor: "#FFF",
 opacity: "30%",
 alignItems: "center",
@@ -374,39 +371,10 @@ broderRadius: "45px",
 position: "absolute",
 top: "300px",
 }`],
-
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.FlatList2 pass={{
-          elementProperties: [
-            {}
-          ],
-
-          pData: '',
-
-          itemElements: [
-            
-              (...args) => {
-                return (
-                  <RN.Text>
-                    Adicione os campos que quer mostrar aqui.
-                  </RN.Text>
-                );
-              }
-              
-          ],
-
-      styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],    args,
-        }}/>],
-
+            arrProps: [],
+            arrItems: [() => <></>],
             args,
-          }}/>
-        , 
+        }}/>, 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
