@@ -372,6 +372,7 @@ top: "300px",
 }`],
             arrProps: [],
             arrItems: [
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -381,6 +382,8 @@ width: "100%",
 flexDirection: "row",
 backgroundColor: "#CCC",
 borderRadius: "15px",
+alignItems: "center",
+justifyContent: "center",
 }`],
 
             functions:[()=>{}],            childrenItems:[
@@ -422,7 +425,34 @@ color: "#FFF",
 
             args,
           }}/>
-        ],
+        , (...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: ``,
+
+          itemElements: [
+            
+              (...args) => {
+                return (
+                  <RN.Text>
+                    Adicione os campos que quer mostrar aqui.
+                  </RN.Text>
+                );
+              }
+              
+          ],
+
+      styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],    args,
+        }}/>],
             args,
         }}/>],
 
