@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'home';
+          const currRoute = 'sc0';
 
           let args: any = [];
 
@@ -1795,7 +1795,35 @@ right: 7,
       args,
     }}/>],
 
-          functions:[()=>{}],
+          functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [async (...args) =>
+        functions.firebase.getDocsTool({ args, pass:{
+   arrRefStrings: [`championsScores`],
+            arrFuncs: [(args) => {
+ console.log({ args });
+ const path1 = 'sc.A0.lists.list1';
+ const path2 = 'sc.A0.result';
+
+  const vitorias = { psg: 0, inter: 0, empate: 0 };
+args.forEach(p => {
+  const psgGols = parseInt(p.psg);
+  const interGols = parseInt(p.inter);
+
+  if (psgGols > interGols) vitorias.psg++;
+    else if (interGols > psgGols) vitorias.inter++;
+    else vitorias.empate++;
+});
+
+ const pass1 = { keyPath: [path1], value: [args] };
+ tools.functions.setVar({ args: '', pass: pass1 });
+
+ const pass2 = { keyPath: [path2], value: [vitorias] };
+ tools.functions.setVar({ args: '', pass: pass2 });
+}],
+        }})]
+ , trigger: 'on init'
+}})],
 
           args,
         }}/>, 
