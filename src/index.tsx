@@ -836,7 +836,7 @@ height: "100%",
 zIndex: "-1px",
 }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Ffinal%201.png?alt=media&token=d5627ef4-6203-43c8-a13d-3ab594d986cd`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/flaxboll.appspot.com/o/lives_flaxboll%2Ffinal-1.jpg?alt=media&token=73099bd8-7e9a-4d91-97bc-c1c319ce6c91`],
 
       args,
     }}/>, 
