@@ -493,7 +493,7 @@ color: "#FFF",
           }}/>
         , (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
-            {}
+            ``
           ],
 
           pData: `sc.A0.lists.list1`,
