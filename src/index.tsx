@@ -372,7 +372,59 @@ position: "absolute",
 top: "300px",
 }`],
             arrProps: [],
-            arrItems: [() => <></>],
+            arrItems: [
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+width: "100%",
+flexDirection: "row",
+backgroundColor: "#FFF",
+opacity: "80%",
+borderRadius: "45px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Nome`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
+            `Placar`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
             args,
         }}/>, 
 
