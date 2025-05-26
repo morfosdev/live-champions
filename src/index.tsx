@@ -882,8 +882,8 @@ left: 7,
 
       styles:[{
 position: "absolute",
-width: "82px",
-height: "82px",
+width: "83px",
+height: "83px",
 zIndex: "-1px",
 top: 109,
 right: 7,
