@@ -562,7 +562,7 @@ color: "#CCC",
           ],
 
           children: [
-            `$arg_.psg`
+            `$arg_psg`
           ],
 
           args,
