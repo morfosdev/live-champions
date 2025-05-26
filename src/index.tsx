@@ -413,6 +413,24 @@ color: "#FFF",
           ],
 
           children: [
+            `Vitórias  |  `
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+color: "#FFF",
+}`
+          ],
+
+          children: [
             `PSG `
           ],
 
@@ -449,7 +467,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Vitórias  |  `
+            `  |  `
           ],
 
           args,
@@ -503,7 +521,7 @@ color: "#FFF",
           ],
 
           children: [
-            `Vitórias  |  `
+            `  |  `
           ],
 
           args,
