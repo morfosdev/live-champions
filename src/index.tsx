@@ -1947,6 +1947,7 @@ args.forEach(p => {
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -1970,6 +1971,130 @@ args.forEach(p => {
         ]
  , trigger: 'on press'
 }})],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() => {
+  const [userName, setUserName] = React.useState("");
+  const [userPassword, setUserPassword] = React.useState("");
+  const [mensagemErro, setMensagemErro] = React.useState("");
+  const handleLogin = () => {
+    if (!userName.trim()) {
+      setMensagemErro("O nome de usuário precisa ser preenchido.");
+      return;
+    }
+    if (!userPassword.trim()) {
+      setMensagemErro("A senha precisa ser preenchida.");
+      return;
+    }
+
+    setMensagemErro("");
+    console.log("Login realizado com sucesso!");
+  };
+
+  return (
+    <RN.View
+      style={{
+        padding: 20,
+        alignItems: "stretch",
+        justifyContent: "center",
+      }}
+    >
+      <RN.TextInput
+        placeholder="Nome de usuário"
+        style={{
+          borderWidth: 1,
+          borderColor: "#ccc",
+          paddingVertical: 10,
+          paddingHorizontal: 15,
+          borderRadius: 8,
+          marginBottom: 10,
+        }}
+        value={userName}
+        onChangeText={setUserName}
+      />
+
+      <RN.TextInput
+        placeholder="Senha"
+        style={{
+          borderWidth: 1,
+          borderColor: "#ccc",
+          paddingVertical: 10,
+          paddingHorizontal: 15,
+          borderRadius: 8,
+          marginBottom: 10,
+        }}
+        value={userPassword}
+        onChangeText={setUserPassword}
+        secureTextEntry
+      />
+
+      {mensagemErro !== "" && (
+        <RN.Text
+          style={{
+            color: "red",
+            marginBottom: 10,
+          }}
+        >
+          {mensagemErro}
+        </RN.Text>
+      )}
+
+      <RN.Pressable
+        style={{
+          backgroundColor: "#007BFF",
+          paddingVertical: 12,
+          paddingHorizontal: 24,
+          borderRadius: 8,
+          alignItems: "center",
+        }}
+        onPress={handleLogin}
+      >
+        <RN.Text
+          style={{
+            color: "#FFFFFF",
+            fontSize: 16,
+          }}
+        >
+          Login
+        </RN.Text>
+      </RN.Pressable>
+    </RN.View>
+  );
+}]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            `TESTE`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
